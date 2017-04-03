@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp" >
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/BlueViolet"
+            android:layout_margin="5dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/BlueViolet"
+                android:layout_margin="5dp" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/BlueViolet"
+                android:layout_margin="5dp" >
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp" >
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:background="@color/Crimson" 
+            android:layout_margin="5dp" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Crimson"
+            android:layout_margin="5dp" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp" >
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@color/ForestGreen"
+            android:orientation="vertical" 
+            android:layout_margin="5dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@color/ForestGreen"
+                android:orientation="vertical" 
+                android:layout_margin="5dp" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@color/ForestGreen"
+                android:orientation="vertical" 
+                android:layout_margin="5dp" >
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp" >
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@color/OrangeRed"
+            android:orientation="vertical"
+            android:layout_margin="5dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@color/OrangeRed"
+                android:orientation="vertical"
+                android:layout_margin="5dp" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@color/OrangeRed"
+                android:orientation="vertical"
+                android:layout_margin="5dp" >
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

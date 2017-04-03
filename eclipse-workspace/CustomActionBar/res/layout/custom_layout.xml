@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#000000"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:weightSum="9" >
+      <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.5"
+        android:src="@drawable/ic_launcher" />   
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Action Bar"
+        android:layout_gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" /> 
+    <ImageButton
+        android:id="@+id/imgCall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.5"
+        android:src="@drawable/call" />
+
+    <ImageButton
+        android:id="@+id/imgSend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.5"
+        android:src="@drawable/send" />
+      <ImageButton
+        android:id="@+id/imgMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.5"
+        android:src="@drawable/mail" />
+    
+    </LinearLayout>
+
+</LinearLayout>
+    

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FunWithText</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="hello_world">Hello World</string>
+    
+    <string name="prompt">Pick One</string>
+    
+    <string-array name="interpolators">
+        <item>AccelerateDecelerateInterpolator</item>
+        <item>AccelerateInterpolator</item>
+        <item>AnticipateInterpolator</item>
+        <item>AnticipateOvershootInterpolator</item>
+        <item>BounceInterpolator</item>
+        <item>DecelerateInterpolator</item>
+        <item>LinearInterpolator</item>
+        <item>OvershootInterpolator</item>
+    </string-array>
+
+</resources>

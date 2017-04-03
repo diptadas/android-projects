@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp" 
+        android:background="#80FFFFFF"
+        >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp" 
+        
+        >
+
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/argentina" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Argentina"
+                android:textStyle="bold"
+              
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+               android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="Click to see details" />
+        </LinearLayout>
+    </LinearLayout>
+     </LinearLayout>
+
+
+</LinearLayout>
